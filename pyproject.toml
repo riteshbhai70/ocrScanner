@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ocr-scanner"
+version = "1.0.0"
+description = "Flask-based OCR web scanner"
+authors = ["Ritesh Kumar rajkumar777788889999000@gmail.com"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.0"
+Flask = "3.0.0"
+Werkzeug = "3.0.1"
+Pillow = "10.2.0"
+pytesseract = "0.3.10"
+PyPDF2 = "3.0.1"
+pdf2image = "1.16.3"
+python-dotenv = "1.0.0"
+gunicorn = "21.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
